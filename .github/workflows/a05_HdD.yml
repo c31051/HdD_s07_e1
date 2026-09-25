@@ -1,0 +1,19 @@
+name: a05_HdD
+on: 
+  workflow_dispatch:
+jobs:
+  Prueba:
+    runs-on: ${{matrix.os}}
+    strategy:
+      matrix:
+        os:
+          - ubuntu-latest
+          - windows-latest
+        version:
+          - 1.0
+          - 2.0
+    steps:
+      - name: "mostrar"
+        run: |
+          echo "${{matrix.os}}"
+          echo "${{matrix.version}}"
