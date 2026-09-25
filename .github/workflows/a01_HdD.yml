@@ -1,0 +1,9 @@
+name: a01_HdD
+on: 
+  workflow_dispatch:
+jobs:
+  Mi_inicio:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "inicio"
+        run: echo "Ok"
