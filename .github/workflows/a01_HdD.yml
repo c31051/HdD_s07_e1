@@ -8,5 +8,7 @@ jobs:
       - name: "inicio"
         run: echo "Ok"
 
-      - name: "fecha"
-        run: date
+      - name: "varios"
+        run: |
+          date
+          echo "Autor ${{github.actor}}"
