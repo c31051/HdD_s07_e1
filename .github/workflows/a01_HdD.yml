@@ -7,3 +7,6 @@ jobs:
     steps:
       - name: "inicio"
         run: echo "Ok"
+
+      - name: "fecha"
+        run: date
