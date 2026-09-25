@@ -1,0 +1,12 @@
+name: a02_HdD
+on: 
+  workflow_dispatch:
+jobs:
+  Mi_inicio:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: "varios"
+        run: |
+          git config user.name "Romel"
+          git config user.email "c31051@utp.edu.pe"
